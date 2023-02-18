@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./scss/main.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <svg style="display: none;" xmlns="http://www.w3.org/2000/svg" xlink:href="data:image/png">
+        <symbol id="micro">
+            <rect x="4" width="10" height="20" rx="5" fill="white"/>
+            <path d="M1 14C1 16.5 2.6 21.5 9 21.5C15.4 21.5 17 16.5 17 14" stroke="white" fill="none" stroke-width="2"/>
+            <rect x="7" y="21" width="4" height="8" rx="1" fill="white"/>
+        </symbol>
+    </svg>
+    
+    <div class="modal">
+        <div class="modal__windowChat">
+            <div class="message message-user">
+                <p class="user-name">Lesha</p>
+                <p class="m_text ures-text">Здравствуйте, как мне подать заявление на гранд</p>
+            </div>
+            <div class="message message-bot">
+                <p class="bot-name">bot</p>
+                <p class="m_text bot-text">С этим вам поможет бот</p>
+            </div>
+            <div class="message message-user">
+                <p class="user-name">Lesha</p>
+                <p class="m_text ures-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ex aut perferendis repellendus sed modi accusantium, voluptates quos cupiditate recusandae neque assumenda aperiam natus ullam itaque blanditiis illo. Expedita, architecto.</p>
+            </div>
+            <div class="message message-bot">
+                <p class="bot-name">bot</p>
+                <p class="m_text bot-text">Просто набор слов, чтобы посмотреть как будет выглядеть это сообщение</p>
+            </div>
+            <div class="message message-user">
+                <p class="user-name">Lesha</p>
+                <p class="m_text ures-text">Здравствуйте, как мне подать заявление на гранд</p>
+            </div>
+            <div class="message message-bot">
+                <p class="bot-name">bot</p>
+                <p class="m_text bot-text">С этим вам поможет бот</p>
+            </div>
+            <div class="message message-bot">
+                <p class="bot-name">bot</p>
+                <p class="m_text bot-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis suscipit ab inventore eum nihil ipsam a unde perspiciatis, voluptates deserunt fuga quisquam rem esse quasi, alias nemo debitis laboriosam vitae?</p>
+            </div>
+        </div>
+        <div class="modal__forms">
+            <form action="#" class="form">
+                <button class="btn__micro" title="Задать вопрос голосом">
+                    <svg class="modal__forms-micro" width="18" height="29">
+                        <use href="#micro"></use>
+                    </svg>
+                </button>
+                <input class="modal__forms-text" type="text" placeholder="Введите ваш вопрос..." title="Введите сюда Ваш вопрос">
+                <input class="modal__forms-btn" type="button" value="Отправить" title="Отправить Ваш вопрос">
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
